@@ -1,3 +1,4 @@
+
 CrackBit - Ultimate Bitcoin Puzzle Solver
 CrackBit is the first open-source solution designed to achieve enterprise-grade blockchain scanning speeds. It leverages CUDA for high-performance processing, making it ideal for solving Bitcoin puzzles efficiently.
 
