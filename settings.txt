@@ -1,0 +1,23 @@
+[GPU]
+# Set to 0 for automatic optimization. You can also manually specify the number of threads.
+# Example: threads = 1024
+threads = 0  
+
+# Define the 2-8 character hex prefix that CrackBit will use in its search.
+# Example: target = 1A2B
+target = 9A1F
+
+[Performance]
+# Number of keys processed per GPU batch. Default is 100,000,000 (1e8).
+# Adjust this based on your hardware capabilities for optimal performance.
+# Example: batch_size = 50000000
+batch_size = 100000000
+
+[Output]
+# Set the level of detail for logs. Options: detailed, normal, minimal.
+# Example: log_level = normal
+log_level = detailed
+
+# Specify the filename where CrackBit will save the results.
+# Example: results_file = /path/to/your/results.txt
+results_file = found.txt
